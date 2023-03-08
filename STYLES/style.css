@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    font-size: 62.5%;
+    --BLUE: #000814;
+    --BLUETWO: #010C1E;
+    --RED: #D90429;
+}
+
+body {
+    background-color: var(--BLUE);
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav,
+header {
+    width: calc(100vw - 10%);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5rem auto;
+}
+
+.icon {
+    width: 2.5rem;
+}
+
+.button-wpp {
+    background-color: var(--RED);
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: .5rem;
+    transition: .5s;
+}
+
+.button-wpp:hover{
+    background-color: #f81138;
+    transition: .5s;
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.image-tv {
+    max-width: 40%;
+}
+
+
+/* === HEADER ===*/
+header {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.text-mind {
+    margin-top: -12rem;
+}
+
+.text-mind h1 {
+    font-size: 5rem;
+    font-weight: bolder;
+    line-height: 4.5rem;
+}
+
+.color-span {
+    color: var(--RED);
+}
+
+.description {
+    margin: auto;
+    margin: 2rem auto 2.5rem auto;
+    font-size: 1.5rem;
+}
+
+.link-cta {
+    background-color: var(--RED);
+    padding: 1rem 2rem;
+    border-radius: .3rem;
+    font-size: 1.5rem;
+    transition: .5s;
+}
+
+.link-cta:hover{
+    background-color: #f81138;
+    transition: .5s;
+}
+
+
+
+/* === SERVICES - SECTION ===*/
+
+#services {
+    margin: 10rem auto;
+    width: calc(100vw - 10%);
+    max-width: 600px;
+    text-align: center;
+}
+.title{
+    font-size: 3rem;
+}
+.subtitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 80%;
+    margin: 1rem auto;
+}
+.subtitle p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.red-line{
+    width: .5rem;
+    height: 3rem;
+    background-color: var(--RED);
+}
+
+#cards{
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card{
+    width: 100%;
+    padding: 2rem;
+    border: solid .1rem rgba(241, 241, 241, .1);
+    border-radius: .5rem;
+    transition: .5s;
+}
+
+.card:hover{
+    background-color: var(--BLUETWO);
+    transition: .5s;
+}
+
+.service-icon {
+    width: 5rem;
+    margin-bottom: 2rem;
+}
+
+.title-card{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.card-about{
+    font-size: 1.2rem;
+}
