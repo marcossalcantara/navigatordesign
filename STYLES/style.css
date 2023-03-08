@@ -27,8 +27,7 @@ a {
     text-decoration: none;
 }
 
-nav,
-header {
+nav{
     width: calc(100vw - 10%);
 }
 
@@ -76,14 +75,16 @@ header {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    width: calc(100vw - 10%);
+    max-width: 600px;
 }
 
 .text-mind {
     margin-top: -12rem;
 }
 
-.text-mind h1 {
-    font-size: 5rem;
+.text-mind .h1 {
+    font-size: 500%;
     font-weight: bolder;
     line-height: 4.5rem;
 }
