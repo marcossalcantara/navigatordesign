@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="shortcut icon" href="./ASSETS/200x200 cópia.svg" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
     <title>Navigator - Design for Web │ Serviços em Identidades Visuais (Com logotipo completo), UI Design Interfaces de
         Apps, sites e sistemas</title>
@@ -14,22 +16,28 @@
 
 <body>
     <main>
-        <nav>
-            <ul class="nav-list">
-                <li><a href="#services" class="nav-btn">
-                        Serviços
-                    </a></li>
-                <li><a href="#budget" class="nav-btn">
-                        Orçamento
-                    </a></li>
-            </ul>
-            <a href="index.html" class="logo">
+        <nav id="nav-mobile">
+            <a href="./index.html" class="logotype">
                 <img src="./ASSETS/LOGO-EXPANSED.svg" alt="" class="logo-img">
             </a>
-            <a href="" class="button-wpp">
-                <img src="./ASSETS/WPP cópia.svg" alt="" class="icon">
-                <p>Fazer orçamento</p>
-            </a>
+            <span class="material-symbols-outlined" onclick="menu()">
+                menu
+            </span>
+
+            <aside id="aside-menu">
+                <span class="menu-nav">
+                    <span class="material-symbols-outlined" onclick="menu()">
+                        close
+                    </span>
+                    <a href="#services" class="menu">Serviços</a>
+                    <a href="#budget" class="menu">Contatos</a>
+                    <a href="" class="menu">Falar no Whatsapp</a>
+                </span>
+                <p class="version">
+                    Versão 1.0
+                </p>
+            </aside>
+
         </nav>
 
 
@@ -103,6 +111,11 @@
     <section id="budget">
 
     </section>
+
+
+
+
+    <script src="./SCRIPTS/script.js"></script>
 </body>
 
 </html>
