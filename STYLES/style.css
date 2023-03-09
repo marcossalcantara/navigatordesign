@@ -12,6 +12,7 @@
     --BLUE: #000814;
     --BLUETWO: #010C1E;
     --RED: #D90429;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -89,7 +90,7 @@ header {
 }
 
 .text-mind .h1 {
-    font-size: 400%;
+    font-size: 300%;
     font-weight: bolder;
     line-height: 4.5rem;
 }
